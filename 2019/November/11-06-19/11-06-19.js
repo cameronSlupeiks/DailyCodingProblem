@@ -9,7 +9,7 @@
  *
 */
 
-function isSum(list, k) {
+function containsSum(list, k) {
 
     const map = new Map()
 
@@ -42,7 +42,7 @@ for (let i = 0; i < 100; i++) {
 }
 
 map.forEach( function (k, list) {
-    const answer = isSum(list, k);
+    const answer = containsSum(list, k);
     if (answer === undefined) console.log(`${++i})`.padEnd(5) + `list = ${list}`.padEnd(37) + `k = ${k}, answer = ❌`);
     else                      console.log(`${++i})`.padEnd(5) + `list = ${list}`.padEnd(37) + `k = ${k}, answer = ✅`);
 });
