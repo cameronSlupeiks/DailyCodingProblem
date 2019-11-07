@@ -7,7 +7,7 @@
  *
  *            E.G.: Given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17
  *
-*/
+ */
 
 function containsSum(list, k) {
 
@@ -31,7 +31,7 @@ function containsSum(list, k) {
  *            1 - 20 (inclusive) and k is a random number between
  *            1 - 40 (inclusive).
  *
-*/
+ */
 
 const map  = new Map();
 const k    = Math.floor(Math.random() * 40) + 1;
