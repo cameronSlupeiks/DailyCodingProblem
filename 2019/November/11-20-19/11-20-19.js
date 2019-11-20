@@ -31,7 +31,6 @@ function products(array) {
  *            the expected results vs the actual results.
  *            If they are equal, the tests passes. Otherwise,
  *            it fails.
- *
  */
 
  const data = [
