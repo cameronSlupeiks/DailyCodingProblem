@@ -50,9 +50,9 @@ function products(array) {
  ]
 
 function pass(expected, result) {
-    if (expected.length !== result.length) return '❌';
+    if (expected.length !== result.length)    {return '❌';}
     for (var i = 0; i < expected.length; i++) {if (expected[i] !== result[i]) return '❌';}
-	return '✅';
+    return '✅';
 };
 
 for (let i = 0; i < 5; i++) {
