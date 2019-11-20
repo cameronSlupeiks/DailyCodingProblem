@@ -1,4 +1,4 @@
-# Daily Coding Problem
+# 📅Daily Coding Problem
 
  Solutions to daily coding problems from https://www.dailycodingproblem.com/.
 
